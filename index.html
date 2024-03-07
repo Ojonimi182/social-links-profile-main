@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Social links profile</title>
+</head>
+<style>
+    * {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400, 600, 700;        
+    }
+    body{
+        background-color: black;
+    }
+    .container-fluid {
+        background: #212122;
+        border-radius: 8px;
+        padding: 15px;
+        box-shadow: 0 1px 2px;
+        margin-top: -40px;
+        max-width: 270px;
+        margin: 50px auto;
+        text-align: center;
+    }
+    .link {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .link .bn49 {
+        border: none;
+        outline: none;
+        height: 38px;
+        cursor: pointer;
+        background: #272727;
+        border-radius: 5px;
+        padding: 15px;
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 600;
+        transition: 0.2s ease;
+    }
+
+    .bn49:hover {
+        background-color: rgb(127, 232, 7);
+    }
+    
+    .para {
+        margin-top: -18px;
+    }
+ 
+</style>
+<body>
+    <div class="container-fluid">
+        <div class="img">
+            <img style="width: 100px; height: 100px; border-radius: 50px; justify-content: center;" src="assets/images/avatar-jessica.jpeg">
+        </div> 
+        <div class="namee">
+            <h2 style="color: white;">Jessica Randall</h2>
+        </div>
+        <div class="para">
+            <p><span style="color: rgb(127, 232, 7);">London, United Kingdom</span></p>
+        </div>
+          
+        <div class="text">
+            <p style="color: aliceblue; font-size: 0.77rem;">"Front-end developer and avid reader."</p>
+        </div>
+        <div class="link">
+            <button type="submit" class="bn49">GitHub</button>
+            <button type="submit" class="bn49">Frontend Mentor</button>
+            <button type="submit" class="bn49">LinkedIn</button>
+            <button type="submit" class="bn49">Twitter</button>
+            <button type="submit" class="bn49">Instagram</button>
+        </div>
+        
+    </div>
+    <div class="attribution">
+        <span style="color: #fff;">Challenge by: </span> <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        <span style="color: #fff;">Coded by: </span> <a href="#">Samuel Ojonimi Joshua</a>
+    </div>
+</body>
+</html>
